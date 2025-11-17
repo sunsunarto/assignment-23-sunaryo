@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import { Button, message } from "antd";
-import StudentTable from "@/components/students/StudentTable";
-import StudentForm from "@/components/students/StudentForm";
+import StudentTable from "../components/students/StudentTable";
+import StudentForm from "../components/students/StudentForm";
 
 export default function StudentsPage() {
   const [students, setStudents] = useState([]);
